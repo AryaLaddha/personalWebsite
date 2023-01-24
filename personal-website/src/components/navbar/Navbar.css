@@ -1,170 +1,65 @@
-.NavbarItems {
-    z-index: 1;
-    position: fixed;
-    background: white;
+.navbar-content {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-content > .left-content {
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.navbar-content > .center-content {
+    display: flex;
+    align-items: center;
     justify-content: center;
-    align-items: center;
-    font-size: 1rem;
-    padding: 0 5rem;
-    width: 100%;
-    height: 60px;
+    margin-top: 20px;
 }
 
-.navbar-logo {
-    color: #fff;
-}
-
-.NavbarItems > h2 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.NavbarItems > h2:hover {
-    color: #2f2ee9;
-    cursor: pointer;
-}
-
-.NavbarItems > ul {
-    display: flex;
-    list-style: none;
-    margin-right: 35%;
-}
-
-.NavbarItems > ul > li {
-    padding: 10px;
-}
-
-.NavbarItems > ul > li > a {
+.navbar-content > .center-content > a {
+    margin: 0 1em;
     text-decoration: none;
     color: black;
-    position: relative;
-    font-size: 20px;
+    font-size: 35px;
 }
 
-.NavbarItems > ul > li > a::after {
-    content: "";
-    position: absolute;
-    width: 100%;
-    transform: scaleX(0);
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color: black;
-    transform-origin: bottom right;
-    transition: transform 0.25s ease-out;
-}
-
-.NavbarItems > ul > li > a:hover::after {
-    transform: scaleX(1);
-    transform-origin: bottom left;
-}
-
-.NavbarItems > ol {
+.navbar-content > .right-content {
     display: flex;
-    list-style: none;
-    margin-left: 35%;
-}
-
-.search-box {
-    display: flex;
-    height: 100%;
-    cursor: pointer;
-    padding: 1px 2px;
     align-items: center;
+    margin-right: 40px;
+    margin-top: 20px;
 }
 
-.NavbarItems > ol > li {
-    padding: 10px;
-}
-
-.NavbarItems > ol > li > a {
-    text-decoration: none;
+.navbar-content > .right-content > button {
+    background-color: white;
     color: black;
-    font-size: 20px;
+    border-radius: 10em;
+    font-size: 35px;
+    font-weight: 600;
+    padding: 10px 20px;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid black;
+    -webkit-box-shadow: 0 0 0 0 black;
+            box-shadow: 0 0 0 0 black;
 }
 
-.NavbarItems > ol > li > a:hover {
-    color: #2f2ee9;
-}
+.navbar-content > .right-content > button:hover {
+    -webkit-transform: translateY(-4px) translateX(-2px);
+        -ms-transform: translateY(-4px) translateX(-2px);
+            transform: translateY(-4px) translateX(-2px);
+    -webkit-box-shadow: 2px 5px 0 0 black;
+            box-shadow: 2px 5px 0 0 black;
+};
 
-.form button {
-    border: none;
-    background: none;
-    color: #8b8ba7;
-}
-
-.form {
-    --timing: 0.3s;
-    --width-of-input: 200px;
-    --height-of-input: 40px;
-    --border-height: 2px;
-    --input-bg: #f5f5f5;
-    --border-color: #2f2ee9;
-    --border-radius: 30px;
-    --after-border-radius: 1px;
-    position: relative;
-    width: var(--width-of-input);
-    height: var(--height-of-input);
-    display: flex;
-    align-items: center;
-    padding-inline: 0.8em;
-    border-radius: var(--border-radius);
-    transition: border-radius 0.5s ease;
-    background: var(--input-bg,#fff);
-}
-
-.input {
-    font-size: 0.9rem;
-    background-color: transparent;
-    width: 100%;
-    height: 100%;
-    padding-inline: 0.5em;
-    padding-block: 0.7em;
-    border: none;
-}
-
-.form:before {
-    content: "";
-    position: absolute;
-    background: var(--border-color);
-    transform: scaleX(0);
-    transform-origin: center;
-    width: 100%;
-    height: var(--border-height);
-    left: 0;
-    bottom: 0;
-    border-radius: 1px;
-    transition: transform var(--timing) ease;
-}
-
-.form:focus-within {
-    border-radius: var(--after-border-radius);
-}
-
-input:focus {
-    outline: none;
-}
-
-.form:focus-within:before {
-    transform: scale(1);
-}
-
-.reset {
-    border: none;
-    background: none;
-    opacity: 0;
-    visibility: hidden;
-}
-
-input:not(:placeholder-shown) ~ .reset {
-    opacity: 1;
-    visibility: visible;
-}
-
-.form svg {
-    width: 17px;
-    margin-top: 3px;
-}
+.navbar-content > .right-content > button:active {
+    -webkit-transform: translateY(2px) translateX(1px);
+        -ms-transform: translateY(2px) translateX(1px);
+            transform: translateY(2px) translateX(1px);
+    -webkit-box-shadow: 0 0 0 0 black;
+            box-shadow: 0 0 0 0 black;
+};

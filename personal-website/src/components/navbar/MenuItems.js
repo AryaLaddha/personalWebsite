@@ -2,34 +2,21 @@ export const MenuItems = [
     {
         url: "",
         cName: "nav-links",
-        icon: "fa fa-user"
+        name: "Home"
     },
     {
         url: "",
         cName: "nav-links",
-        icon: "fa-solid fa-heart"
+        name: "About"
     },
     {
         url: "",
         cName: "nav-links",
-        icon: "fa-solid fa-cart-shopping"
-    }
-]
-
-export const MenuItems2 = [
-    {
-        url: "",
-        cName: "nav-links-2",
-        title: "Women"
+        name: "Work"
     },
     {
         url: "",
-        cName: "nav-links-2",
-        title: "Men"
-    },
-    {
-        url: "",
-        cName: "nav-links-2",
-        title: "Kids"
+        cName: "nav-links",
+        name: "Skills"
     },
 ]
