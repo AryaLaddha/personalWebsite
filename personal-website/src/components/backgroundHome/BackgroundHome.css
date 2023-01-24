@@ -1,0 +1,7 @@
+.backgroundPage {
+    text-align: center;
+}
+
+.backgroundPage > .background {
+    margin-top: 100px;
+}
