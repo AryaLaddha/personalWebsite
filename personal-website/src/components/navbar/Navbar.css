@@ -1,15 +1,16 @@
 .navbar-content {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    background-color: #f5f5f5;
+    background-color: black;
+    height: 92px;
 }
 
 .navbar-content > .left-content {
+    margin-right: 150px;
     display: flex;
     align-items: center;
     font-size: 28px;
-    margin-left: 40px;
     margin-top: 20px;
     padding-bottom: 10px;
 }
@@ -25,45 +26,35 @@
 .navbar-content > .center-content > a {
     margin: 0 1em;
     text-decoration: none;
-    color: black;
-    font-size: 28px;
+    color: white;
+    font-size: 22px;
 }
 
 .navbar-content > .right-content {
+    margin-left: 150px;
     display: flex;
     align-items: center;
-    margin-right: 40px;
     margin-top: 20px;
     padding-bottom: 10px;
 }
 
-.navbar-content > .right-content > button {
-    background-color: white;
-    color: black;
-    border-radius: 10em;
-    font-size: 28px;
-    font-weight: 600;
-    padding: 8px 15px;
-    cursor: pointer;
-    -webkit-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-    border: 1px solid black;
-    -webkit-box-shadow: 0 0 0 0 black;
-            box-shadow: 0 0 0 0 black;
+.navbar-content > .right-content > .social-link {
+    margin: 0 0.3em;
 }
 
-.navbar-content > .right-content > button:hover {
-    -webkit-transform: translateY(-4px) translateX(-2px);
-        -ms-transform: translateY(-4px) translateX(-2px);
-            transform: translateY(-4px) translateX(-2px);
-    -webkit-box-shadow: 2px 5px 0 0 black;
-            box-shadow: 2px 5px 0 0 black;
-};
+@media (max-width: 1180px) {
+    .navbar-content {
+        width: 100%;
+        justify-content: space-between;
+    }
 
-.navbar-content > .right-content > button:active {
-    -webkit-transform: translateY(2px) translateX(1px);
-        -ms-transform: translateY(2px) translateX(1px);
-            transform: translateY(2px) translateX(1px);
-    -webkit-box-shadow: 0 0 0 0 black;
-            box-shadow: 0 0 0 0 black;
-};
+    .navbar-content > .left-content {
+        margin-right: auto;
+        padding-left: 10px;
+    }
+
+    .navbar-content > .right-content {
+        margin-left: auto;
+        padding-right: 10px;
+    }
+}
