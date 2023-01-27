@@ -1,12 +1,10 @@
 .navbar-content {
-    /* display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr; */
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: black;
     height: 92px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 
 .navbar-content > .left-content {
