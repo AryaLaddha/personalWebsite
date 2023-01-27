@@ -1,0 +1,36 @@
+.resumeLineList {
+    list-style: none;
+    position: fixed;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.resume > .resumeLineList > .resumeLinediv > .fixed-line {
+    position: fixed;
+    bottom: 0;
+    width: 2px;
+    left: 50px;
+    height: 200px;
+    background-color: black;
+}
+
+.resume > .resumeLineList > .resumeLineResume > button {
+    position: fixed;
+    bottom: 235px;
+    left: 7px;
+    rotate: 270deg;
+    background: none;
+    padding: 8px;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 1700px) {
+    .resume > .resumeLineList > .resumeLinediv > .fixed-line {
+        left: 80px;
+    }
+
+    .resume > .resumeLineList > .resumeLineResume > button {
+        left: 37px;
+    }
+}

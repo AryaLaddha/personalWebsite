@@ -1,9 +1,10 @@
 .background-main {
+    background: #f5f5f5;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
     align-items: center;
-    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    /* box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); */
     height: 85vh;
 }
 
@@ -12,7 +13,7 @@
     font-weight: bold;
     font-family: "proxima nova bold", "Helvetica Neue", Helvetica, Arial, Sans-serif;
     padding-right: 70px;
-    padding-left: 10px;
+    padding-left: 130px;
 }
 
 .backgroundPage-left-up {
@@ -37,7 +38,7 @@
     height: 500px;
 }
 
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 1600px) {
     .backgroundPage-left {
         padding-right: 130px;
     }
@@ -66,14 +67,19 @@
         padding-right: 160px;
     }
     .backgroundPage-left-up {
-        font-size: 4em;
+        font-size: 3.5em;
     }
 
     .backgroundPage-left-down {
-        font-size: 5em;
+        font-size: 4.5em;
     }
 
     .backgroundPage-left-down > .backgroundPage-left-lowest {
-        width: 700px;
+        width: 650px;
+    }
+
+    .backgroundPage > .background {
+        height: auto;
+        max-width: 800px;
     }
 }

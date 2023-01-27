@@ -1,43 +1,42 @@
-.Languages {
-    height: 90px;
-    background: #f5f5f5;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: auto;
-    box-shadow: 0 3px 10px rgb(0 0 0 / 0.5);
+.fixed-line-right {
+    position: fixed;
+    bottom: 0;
+    right: 50px;
+    width: 2px;
+    height: 200px;
+    background-color: black;
 }
 
 .ReactLogo{
     cursor: pointer;
-    margin-right: 27px;
+    position: fixed;
+    bottom: 210px;
+    right: 11px;
+    rotate: 90deg;
 }
+
 .PythonLogo{
     cursor: pointer;
-    margin-right: 27px;
-    margin-left: 27px;
+    position: fixed;
+    bottom: 290px;
+    right: 11px;
+    rotate: 90deg;
 }
-.HtmlLogo{
-    cursor: pointer;
-    margin-right: 27px;
-    margin-left: 27px;
-}
-.CssLogo{
-    cursor: pointer;
-    margin-right: 27px;
-    margin-left: 27px;
-}
+
 .PostgreLogo{
     cursor: pointer;
-    margin-right: 27px;
-    margin-left: 27px;
+    position: fixed;
+    bottom: 380px;
+    right: 11px;
+    rotate: 90deg;
 }
-.JavaLogo{
-    cursor: pointer;
-    margin-right: 27px;
-    margin-left: 27px;
-}
-.FirebaseLogo{
-    cursor: pointer;
-    margin-left: 27px;
+
+@media screen and (min-width: 1700px) {
+    .fixed-line-right {
+        right: 80px;
+    }
+
+    .PythonLogo, .PostgreLogo, .ReactLogo {
+        right: 41px;
+    }
 }

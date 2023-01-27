@@ -18,21 +18,21 @@ class Navbar extends React.Component {
                     <div class="center-content">
                         <a href="#home">Home</a>
                         <a href="#about">About</a>
-                        <a href="#skills">Portfolio</a>
-                        <a href="#work">Blog</a>
-                        <a href="#work">Contact</a>
+                        <a href="#work">Work</a>
+                        <a href="#blog">Blog</a>
+                        <a href="#contact">Contact</a>
                     </div>
                     <div class="right-content">
-                        <a href='#' className="social-link">
+                        <a href='#insta' className="social-link">
                             <img src={instagramLogo} alt="logo" className="social-logo" />
                         </a>
-                        <a href='#' className="social-link">
+                        <a href='#github' className="social-link">
                             <img src={githubLogo} alt="logo" className="social-logo" height={48} width={48}/>
                         </a>
-                        <a href='#' className="social-link">
+                        <a href='#linkedin' className="social-link">
                             <img src={linkedinLogo} alt="logo" className="social-logo" />
                         </a>
-                        <a href='#' className="social-link">
+                        <a href='#facebook' className="social-link">
                             <img src={facebookLogo} alt="logo" className="social-logo" /> 
                         </a>
                     </div>
