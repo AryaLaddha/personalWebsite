@@ -4,67 +4,80 @@
     grid-template-rows: 1fr;
     align-items: center;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-    height: 600px
+    height: 550px;
 }
 
 .backgroundPage-left {
     text-align: right;
     font-weight: bold;
     font-family: "proxima nova bold", "Helvetica Neue", Helvetica, Arial, Sans-serif;
-    padding-right: 120px;
+    padding-right: 70px;
     padding-left: 10px;
 }
 
 .backgroundPage-left-up {
-    font-size: 3em;
+    font-size: 2em;
 }
 
 .backgroundPage-left-down {
-    font-size: 4em;
+    font-size: 3em;
 }
 
 .backgroundPage-left-down > .backgroundPage-left-lowest {
     padding-top: 15px;
-    width: 650px;
+    width: 465px;
     text-align: justify;
     font-weight: 200;
-    font-size: 22px;
+    font-size: 20px;
     float: right;
 }
 
 .backgroundPage > .background {
     max-width: auto;
-    height: 600px;
+    height: 500px;
 }
 
-@media screen and (max-width: 1600px) {
-    .backgroundPage-left-down > .backgroundPage-left-lowest {
-        width: 100%;
+@media screen and (min-width: 1500px) {
+    .backgroundPage-left {
+        padding-right: 130px;
     }
-}
 
-@media screen and (max-width: 1415px) {
     .backgroundPage-left-up {
-        font-size: 2.5em;
-    }
-
-    .backgroundPage-left-down {
-        font-size: 3.5em;
-    }
-}
-
-@media screen and (max-width: 1345px) {
-    .backgroundPage-left-up {
-        font-size: 2em;
-    }
-
-    .backgroundPage-left-down {
         font-size: 3em;
     }
+
+    .backgroundPage-left-down {
+        font-size: 4em;
+    }
+
+    .backgroundPage-left-down > .backgroundPage-left-lowest {
+        width: 575px;
+    }
+
+    .background-main {
+        height: auto;
+    }
+
+    .backgroundPage > .background {
+        height: auto;
+        max-width: 75%;
+    }
 }
 
-@media screen and (max-width: 1270px) {
+@media screen and (min-width: 2100px){
     .backgroundPage-left {
-        padding-right: 0px;
+        padding-right: 160px;
+    }
+
+    .backgroundPage-left-up {
+        font-size: 4em;
+    }
+
+    .backgroundPage-left-down {
+        font-size: 5em;
+    }
+
+    .backgroundPage-left-down > .backgroundPage-left-lowest {
+        width: 700px;
     }
 }
