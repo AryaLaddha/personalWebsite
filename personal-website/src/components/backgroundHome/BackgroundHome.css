@@ -4,7 +4,7 @@
     grid-template-rows: 1fr;
     align-items: center;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-    height: 550px;
+    height: 90vh;
 }
 
 .backgroundPage-left {
@@ -54,10 +54,6 @@
         width: 575px;
     }
 
-    .background-main {
-        height: auto;
-    }
-
     .backgroundPage > .background {
         height: auto;
         max-width: 75%;
@@ -68,7 +64,6 @@
     .backgroundPage-left {
         padding-right: 160px;
     }
-
     .backgroundPage-left-up {
         font-size: 4em;
     }
