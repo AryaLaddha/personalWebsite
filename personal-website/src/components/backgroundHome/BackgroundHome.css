@@ -1,6 +1,7 @@
 .background-main {
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
     align-items: center;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
     height: 600px
@@ -8,12 +9,67 @@
 
 .backgroundPage-left {
     text-align: right;
-    font-size: 3em;
     font-weight: bold;
     font-family: "proxima nova bold", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+    padding-right: 120px;
+    padding-left: 10px;
+}
+
+.backgroundPage-left-up {
+    font-size: 3em;
+}
+
+.backgroundPage-left-down {
+    font-size: 4em;
+}
+
+.backgroundPage-left-down > .backgroundPage-left-lowest {
+    padding-top: 15px;
+    text-align: justify;
+    width: 60%;
+    font-weight: 200;
+    font-size: 22px;
+    float: right;
 }
 
 .backgroundPage > .background {
     max-width: auto;
     height: 600px;
 }
+
+@media screen and (max-width: 1415px) {
+    .backgroundPage-left-up {
+        font-size: 2.5em;
+    }
+
+    .backgroundPage-left-down {
+        font-size: 3.5em;
+    }
+}
+
+@media screen and (max-width: 1345px) {
+    .backgroundPage-left-up {
+        font-size: 2em;
+    }
+
+    .backgroundPage-left-down {
+        font-size: 3em;
+    }
+}
+
+@media screen and (max-width: 1270px) {
+    .backgroundPage-left {
+        padding-right: 0px;
+    }
+}
+
+/* @media screen and (max-width: 1160px) {
+    .background-main {
+        grid-template-columns: 1fr;
+        place-items: center;
+    }
+
+    .backgroundPage-left {
+        display: none;
+    }
+} */
