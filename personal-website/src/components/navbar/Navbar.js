@@ -13,6 +13,7 @@ class Navbar extends React.Component {
                 <div class="navbar-content">
                     <div class="left-content">
                         <img src={logo} alt="logo" className="logoMain" height={50} width={50}/>
+                        Arya Laddha
                     </div>
                     <div class="center-content">
                         <a href="#home">Home</a>

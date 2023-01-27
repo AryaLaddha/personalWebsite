@@ -1,7 +1,12 @@
+.background-main {
+    justify-content: center;
+}
+
 .backgroundPage {
     text-align: center;
 }
 
 .backgroundPage > .background {
-    width: 50%;
+    padding-top: 200px;
+    width: 35%;
 }
