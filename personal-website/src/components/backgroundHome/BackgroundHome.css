@@ -25,8 +25,8 @@
 
 .backgroundPage-left-down > .backgroundPage-left-lowest {
     padding-top: 15px;
+    width: 650px;
     text-align: justify;
-    width: 60%;
     font-weight: 200;
     font-size: 22px;
     float: right;
@@ -35,6 +35,12 @@
 .backgroundPage > .background {
     max-width: auto;
     height: 600px;
+}
+
+@media screen and (max-width: 1600px) {
+    .backgroundPage-left-down > .backgroundPage-left-lowest {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 1415px) {
@@ -62,14 +68,3 @@
         padding-right: 0px;
     }
 }
-
-/* @media screen and (max-width: 1160px) {
-    .background-main {
-        grid-template-columns: 1fr;
-        place-items: center;
-    }
-
-    .backgroundPage-left {
-        display: none;
-    }
-} */
