@@ -4,7 +4,7 @@
     grid-template-rows: 1fr;
     align-items: center;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-    height: 90vh;
+    height: 85vh;
 }
 
 .backgroundPage-left {
@@ -52,6 +52,7 @@
 
     .backgroundPage-left-down > .backgroundPage-left-lowest {
         width: 575px;
+        font-size: 23px;
     }
 
     .backgroundPage > .background {
