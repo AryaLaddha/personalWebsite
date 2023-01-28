@@ -1,5 +1,7 @@
 .navbar-content {
+    position: fixed;
     display: flex;
+    width: 100%;
     justify-content: space-around;
     align-items: center;
     background-color: black;
@@ -28,8 +30,6 @@
     justify-content: center;
     margin-top: 20px;
     padding-bottom: 10px;
-    /* padding-left: 750px;
-    padding-right: 750px; */
 }
 
 .navbar-content > .center-content > a {

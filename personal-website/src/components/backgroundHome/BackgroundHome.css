@@ -4,8 +4,9 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
     align-items: center;
-    /* box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); */
-    height: 85vh;
+    height: 100vh;
+    top: 50%;
+    bottom: 50%;
 }
 
 .backgroundPage-left {
@@ -14,6 +15,7 @@
     font-family: "proxima nova bold", "Helvetica Neue", Helvetica, Arial, Sans-serif;
     padding-right: 100px;
     padding-left: 130px;
+    padding-top: 100px;
 }
 
 .backgroundPage-left-up {
@@ -35,7 +37,56 @@
 
 .backgroundPage > .background {
     max-width: auto;
-    height: 500px;
+    height: 450px;
+    padding-top: 100px;
+    padding-right: 100px;
+}
+
+/* @media screen and (max-width: 1130px) {
+    .backgroundPage > .background {
+        display: none;
+    }
+
+    .background-main {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        align-items: center;
+    }
+
+    .backgroundPage-left {
+        text-align: center;
+    }
+
+    .backgroundPage-left-down {
+        display: none;
+    }
+} */
+
+@media screen and (max-width: 1360px) {
+    .backgroundPage > .background {
+        max-width: 70%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 1270px) {
+    .backgroundPage-left-up {
+        font-size: 1.5em;
+    }
+
+    .backgroundPage-left-down {
+        font-size: 2.5em;
+    }
+
+    .backgroundPage-left {
+        padding-right: 60px;
+    }
+
+    .backgroundPage-left-down > .backgroundPage-left-lowest {
+        width: 100%;
+        font-size: 20px;
+    }
 }
 
 @media screen and (min-width: 1600px) {
