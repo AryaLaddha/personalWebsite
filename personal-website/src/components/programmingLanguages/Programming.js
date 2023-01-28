@@ -9,9 +9,9 @@ class Programming extends React.Component {
         return (
             <div className="Languages">
                 <div className="fixed-line-right"></div>
-                <img src={ReactLogo} alt="logo" className="ReactLogo" />
-                <img src={PythonLogo} alt="logo" className="PythonLogo" />
-                <img src={PostgreLogo} alt="logo" className="PostgreLogo" />
+                <img src={ReactLogo} alt="logo" className="ReactLogo" height={50} width={50}/>
+                <img src={PythonLogo} alt="logo" className="PythonLogo" height={50} width={50}/>
+                <img src={PostgreLogo} alt="logo" className="PostgreLogo" height={50} width={50}/>
             </div>
         )
     }
