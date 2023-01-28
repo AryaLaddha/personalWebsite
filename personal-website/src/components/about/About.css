@@ -6,7 +6,13 @@
     border: 1px solid black;
 }
 
-/* 
+.AboutPage > .about-container {
+    position: relative;
+    width: 450px;
+    height: 100px;
+    top: 200px;
+}
+
 .AboutPage > .container {
     position: relative;
     width: 450px;
@@ -45,4 +51,4 @@
     width: 450px;
     top: 50%;
     right: 15%;
-} */
+}

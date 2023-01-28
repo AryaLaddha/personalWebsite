@@ -6,14 +6,14 @@ class About extends React.Component {
     render () {
         return (
             <div className="AboutPage">
-                <div classname="about-container">
-                    <div classname="about-line-left"></div>
-                    <div classname="About-text">ABOUT</div>
-                    <div classname="about-line-right"></div>
+                <div className="about-container">
+                    <div className="about-line-left"></div>
+                    <div className="About-text">ABOUT</div>
+                    <div className="about-line-right"></div>
                 </div>
-                <div classname="main-about">
-                    <div classname="paragraph-about"></div>
-                    <div classname="picture"></div>
+                <div className="main-about">
+                    <div className="paragraph-about"></div>
+                    <div className="picture"></div>
                 </div>
             </div>
         )
