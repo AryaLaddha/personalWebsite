@@ -5,8 +5,7 @@
     grid-template-rows: 1fr;
     align-items: center;
     height: 100vh;
-    top: 50%;
-    bottom: 50%;
+    min-height: 700px;
 }
 
 .backgroundPage-left {
@@ -15,7 +14,8 @@
     font-family: "proxima nova bold", "Helvetica Neue", Helvetica, Arial, Sans-serif;
     padding-right: 100px;
     padding-left: 130px;
-    padding-top: 100px;
+    margin-top: 220px;
+    margin-bottom: 100px;
 }
 
 .backgroundPage-left-up {
@@ -38,8 +38,8 @@
 .backgroundPage > .background {
     max-width: auto;
     height: 450px;
-    padding-top: 100px;
     padding-right: 100px;
+    margin-top: 100px;
 }
 
 /* @media screen and (max-width: 1130px) {
@@ -90,6 +90,10 @@
 }
 
 @media screen and (min-width: 1600px) {
+    .background-main {
+        min-height: 1000px;
+    }
+
     .backgroundPage-left {
         padding-right: 160px;
     }

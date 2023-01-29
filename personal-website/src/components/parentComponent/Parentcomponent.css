@@ -1,0 +1,4 @@
+.parentComponent {
+    display: flex;
+    flex-direction: column;
+}

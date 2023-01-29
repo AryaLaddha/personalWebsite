@@ -1,19 +1,17 @@
 import './App.css';
 import Navbar from './components/navbar/Navbar'
-import Backgroundhome from './components/backgroundHome/BackgroundHome'
 import Programming from './components/programmingLanguages/Programming'
-import About from './components/about/About'
 import ResumeLine from './components/resume/ResumeLine'
+import ParentComponent from './components/parentComponent/ParentComponent'
 
 
 function App() {
   return (
     <div className="App">
       <ResumeLine />
-      <Navbar />
-      <Backgroundhome />
       <Programming />
-      <About />
+      <Navbar />
+      <ParentComponent />
     </div>
   );
 }
