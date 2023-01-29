@@ -4,30 +4,60 @@
     min-height: 700px;
     display: flex;
     flex-direction: column;
-    border: 1px solid black;
 }
 
 .AboutPage > .about-container {
-    background: #fff;
-    width: 450px;
-    height: 100px;
+    background: transparent;
+    width: auto;
+    height: 50px;
     align-self: center;
     text-align: center;
     display: flex;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 10%;
+    align-items: center;
+    margin-left: 8%;
+    margin-right: 8%;
+    /* margin-bottom: 10px; */
+}
+
+.AboutPage > .about-container > .About-text {
+    font-size: 2em;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .AboutPage > .about-container > .about-line-left {
-    
+    width: 400px;
+    height: 2px;
+    background: black;
+    margin-left: 10px;
+}
+
+.AboutPage > .about-container > .about-line-right {
+    width: 400px;
+    height: 2px;
+    background: black;
+    margin-right: 10px;
 }
 
 .AboutPage > .main-about {
-    background: #fff;
-    width: 500px;
+    background: transparent;
+    width: auto;
     height: 500px;
-    margin-top: 40px;
     align-self: center;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.AboutPage > .main-about > .paragraph-about {
+    width: 500px;
+    padding-right: 20px;
+    padding-top: 10px;
 }
 
 @media screen and (min-width: 1600px) {
