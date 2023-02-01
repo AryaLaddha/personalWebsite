@@ -1,140 +1,74 @@
 .background-main {
-    background: #f5f5f5;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-    align-items: center;
+    background: #DDD0C8;
+    width: 100%;
     height: 100vh;
     min-height: 700px;
+    display: flex;
+    flex-direction: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    justify-content: center;
 }
 
-.backgroundPage-left {
-    text-align: right;
-    font-weight: bold;
-    font-family: "proxima nova bold", "Helvetica Neue", Helvetica, Arial, Sans-serif;
-    padding-right: 100px;
-    padding-left: 130px;
-    margin-top: 220px;
-    margin-bottom: 100px;
-}
-
-.backgroundPage-left-up {
-    font-size: 2em;
-}
-
-.backgroundPage-left-down {
-    font-size: 3em;
-}
-
-.backgroundPage-left-down > .backgroundPage-left-lowest {
-    padding-top: 15px;
-    width: 465px;
-    text-align: justify;
-    font-weight: 200;
-    font-size: 20px;
-    float: right;
-}
-
-.backgroundPage > .background {
-    max-width: auto;
-    height: 450px;
-    padding-right: 100px;
-    margin-top: 100px;
-}
-
-/* @media screen and (max-width: 1130px) {
-    .backgroundPage > .background {
-        display: none;
-    }
-
-    .background-main {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
-        align-items: center;
-    }
-
-    .backgroundPage-left {
-        text-align: center;
-    }
-
-    .backgroundPage-left-down {
-        display: none;
-    }
-} */
-
-@media screen and (max-width: 1360px) {
-    .backgroundPage > .background {
-        max-width: 70%;
-        height: auto;
-    }
-}
-
-@media screen and (max-width: 1270px) {
-    .backgroundPage-left-up {
-        font-size: 1.5em;
-    }
-
-    .backgroundPage-left-down {
-        font-size: 2.5em;
-    }
-
-    .backgroundPage-left {
-        padding-right: 60px;
-    }
-
-    .backgroundPage-left-down > .backgroundPage-left-lowest {
-        width: 100%;
-        font-size: 20px;
-    }
-}
-
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1650px) {
     .background-main {
         min-height: 1000px;
     }
+}
 
-    .backgroundPage-left {
-        padding-right: 160px;
-    }
+.background-main > .background-image-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    max-width: 900px;
+    min-width: 400px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
 
-    .backgroundPage-left-up {
-        font-size: 3em;
-    }
-
-    .backgroundPage-left-down {
-        font-size: 4em;
-    }
-
-    .backgroundPage-left-down > .backgroundPage-left-lowest {
-        width: 575px;
-        font-size: 23px;
-    }
-
-    .backgroundPage > .background {
-        height: auto;
-        max-width: 75%;
+@media screen and (min-width: 1650px){
+    .background-main > .background-image-div {
+        padding-left: 60px;
+        padding-right: 60px;
     }
 }
 
-@media screen and (min-width: 2100px){
-    .backgroundPage-left {
-        padding-right: 190px;
-    }
-    .backgroundPage-left-up {
-        font-size: 3.5em;
-    }
+.background-main > .background-text-left {
+    padding-left: 100px;
+    font-family: 'Baloo 2';
+    font-weight: bold;
+    font-size: 4vw;
+    text-align: right;
+}
 
-    .backgroundPage-left-down {
-        font-size: 4.5em;
-    }
+.background-main > .background-text-right {
+    padding-right: 100px;
+    font-family: 'Baloo 2';
+    font-weight: bold;
+    font-size: 4vw;
+    padding-right: 125px;
+}
 
-    .backgroundPage-left-down > .backgroundPage-left-lowest {
-        width: 650px;
+@media screen and (min-width: 1600px) {
+    .background-main > .background-text-left {
+        font-size: 90px;
     }
+    .background-main > .background-text-right {
+        font-size: 90px;
+    }
+}
 
-    .backgroundPage > .background {
-        height: auto;
-        max-width: 800px;
+@media screen and (max-width: 1300px) {
+    .background-main > .background-text-left {
+        font-size: 50px;
     }
+    .background-main > .background-text-right {
+        font-size: 50px;
+    }
+}
+
+.background-main > .background-image-div > .background-image {
+    width: 100%;
 }
