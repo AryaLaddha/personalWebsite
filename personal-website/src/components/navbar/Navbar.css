@@ -39,6 +39,15 @@
     padding-right: 7%;
 }
 
+/* @media screen and (min-width: 2000px) {
+    .navbar-content > .left-content {
+        padding-left: 15%;
+    }
+    .navbar-content > .center-content {
+        padding-right: 15%;
+    }
+} */
+
 .navbar-content > .center-content > a {
     margin: 0 0.5em;
     text-decoration: none;

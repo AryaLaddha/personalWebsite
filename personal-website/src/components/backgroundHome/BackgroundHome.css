@@ -4,11 +4,9 @@
     height: 100vh;
     min-height: 700px;
     display: flex;
-    flex-direction: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
     align-items: center;
     justify-content: center;
+
 }
 
 @media screen and (min-width: 1650px) {
@@ -22,7 +20,7 @@
     justify-content: center;
     align-items: center;
     width: 20%;
-    max-width: 900px;
+    max-width: 700px;
     min-width: 400px;
     padding-left: 30px;
     padding-right: 30px;
@@ -53,10 +51,10 @@
 
 @media screen and (min-width: 1600px) {
     .background-main > .background-text-left {
-        font-size: 90px;
+        font-size: 70px;
     }
     .background-main > .background-text-right {
-        font-size: 90px;
+        font-size: 70px;
     }
 }
 
