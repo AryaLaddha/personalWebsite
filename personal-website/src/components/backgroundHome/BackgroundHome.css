@@ -1,18 +1,16 @@
-.background-main {
-    background: #DDD0C8;
+.Main-front {
     width: 100%;
     height: 100vh;
-    min-height: 700px;
+}
+
+.background-main {
+    padding-top: 90px;
+    width: 100%;
+    height: 50vh;
     display: flex;
     align-items: center;
     justify-content: center;
 
-}
-
-@media screen and (min-width: 1650px) {
-    .background-main {
-        min-height: 1000px;
-    }
 }
 
 .background-main > .background-image-div {
@@ -42,7 +40,7 @@
 }
 
 .background-main > .background-text-right {
-    padding-right: 100px;
+    margin-right: 10px;
     font-family: 'Baloo 2';
     font-weight: bold;
     font-size: 4vw;
@@ -69,4 +67,24 @@
 
 .background-main > .background-image-div > .background-image {
     width: 100%;
+}
+
+.IntroductionPage {
+    margin-left: 260px;
+    margin-right: 200px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Baloo 2', sans;
+    height: 50vh;
+}
+
+.IntroductionPage > .Main-text {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.IntroductionPage > .Main-para {
+    font-size: 25px;
 }
