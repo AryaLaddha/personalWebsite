@@ -17,11 +17,11 @@ class About extends React.Component {
                         Fast-forward to today, and I’ve had the privilege of working at an advertising agency, a start-up, a huge corporation, and a student-led design studio. My main focus these days is building accessible, inclusive products and digital experiences at Upstatement for a variety of clients.
                     </div>
                     <div className="About-Paragraph-3">
-                        I also recently launched a course that covers everything you need to build a web app with the Spotify API using Node & React. Here are a few technologies I’ve been working with recently:
+                        I also recently launched a course that covers everything you need to build a web app with the Spotify API using Node & React.
                     </div>
                 </div>
                 <div className="About-Photo">
-                    <img src={PersonalPhoto} alt="logo" className="Personal-image" width="400px" height="400px"/>
+                    <img src={PersonalPhoto} alt="logo" className="Personal-image" width="300px" height="300px"/>
                 </div>
             </div>
         )
