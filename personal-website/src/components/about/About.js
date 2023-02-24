@@ -19,6 +19,25 @@ class About extends React.Component {
                     <div className="About-Paragraph-3">
                         I also recently launched a course that covers everything you need to build a web app with the Spotify API using Node & React.
                     </div>
+                    <div className="About-Paragraph-4">
+                        Here are a few technologies that I use:
+                    </div>
+                    <div className="About-Paragraph-5">
+                        <div className='first-list'>
+                            <ul>
+                                <li>ReactJS</li>
+                                <li>NodeJS</li>
+                                <li>Python</li>
+                            </ul>
+                        </div>
+                        <div className='second-list'>
+                            <ul>
+                                <li>PostgreSQL</li>
+                                <li>Socket Programming</li>
+                                <li>Azure</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
                 <div className="About-Photo">
                     <img src={PersonalPhoto} alt="logo" className="Personal-image" width="300px" height="300px"/>

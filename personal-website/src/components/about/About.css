@@ -1,6 +1,8 @@
 .AboutPage {
-    height: 600px;
-    width: 70%;
+    height: 100vh;
+    min-height: 600px;
+    max-height: 1125px;
+    width: 80%;
     /* background: #ffa500; */
     display: flex;
     justify-content: center;
@@ -10,8 +12,8 @@
 
 .About-Information{
     padding: 50px;
-    height: 450px;
-    width: 550px;
+    height: 550px;
+    width: 500px;
     /* background: rgb(4, 3, 75); */
     display: flex;
     flex-direction:column;
@@ -25,12 +27,21 @@
     font-family: 'Baloo 2';
 }
 
-.About-Paragraph-1, .About-Paragraph-2, .About-Paragraph-3 {
+.About-Paragraph-1, .About-Paragraph-2, .About-Paragraph-3, .About-Paragraph-4 {
     font-size: 18px;
     margin-top: 20px;
 }
 
-.About-Photo {
-    /* background: rgb(0, 204, 255); */
-    margin-top: 90px;
+.About-Paragraph-5 {
+    margin-top: 15px;
+    display: flex;
+
+}
+
+.first-list > ul, .second-list > ul {
+    list-style-type: square;
+}
+
+.second-list {
+    margin-left: 100px;
 }
