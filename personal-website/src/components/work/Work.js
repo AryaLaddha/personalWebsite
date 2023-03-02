@@ -5,7 +5,11 @@ class Work extends React.Component {
     render () {
         return (
             <div className="Work-page">
-                Hello
+                <div className="Work-information">
+                    <div className="Work-heading">
+                        Work Experience.
+                    </div>
+                </div>
             </div>
         )
     }
