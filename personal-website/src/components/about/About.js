@@ -11,15 +11,15 @@ class About extends React.Component {
                         About.
                     </div>
                     <div className="About-Paragraph-1">
-                        Hello! My name is Brittany and I enjoy creating things that live on the internet. My interest in web development started back in 2012 when I decided to try editing custom Tumblr themes — turns out hacking together a custom reblog button taught me a lot about HTML & CSS!
+                        Hello! My name is Arya Laddha, and I am an experienced data analyst and web developer who has worked as a systems engineer in an IT management company. I built the frontend of an IT management software and created a data analytics project, which sparked my interest in web development.
                     </div>
                     <div className="About-Paragraph-2">
-                        Fast-forward to today, and I’ve had the privilege of working at an advertising agency, a start-up, a huge corporation, and a student-led design studio. My main focus these days is building accessible, inclusive products and digital experiences at Upstatement for a variety of clients.
+                        My main focus is to create inclusive and accessible digital experiences for users. Currently, I am expanding my skills in Node and React by building web apps that integrate with APIs like the Spotify API. I am passionate about using my skills to develop innovative solutions and create value for clients.
                     </div>
                     <div className="About-Paragraph-3">
-                        I also recently launched a course that covers everything you need to build a web app with the Spotify API using Node & React.
+                        I am passionate about using my skills to develop innovative solutions and create value for clients. With my experience and knowledge, I am confident that I can take on challenging projects and deliver exceptional results.
                     </div>
-                    <div className="About-Paragraph-4">
+                    {/* <div className="About-Paragraph-4">
                         Here are a few technologies that I use:
                     </div>
                     <div className="About-Paragraph-5">
@@ -37,7 +37,7 @@ class About extends React.Component {
                                 <li>Azure</li>
                             </ul>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
                 <div className="About-Photo">
                     <img src={PersonalPhoto} alt="logo" className="Personal-image" width="300px" height="300px"/>
