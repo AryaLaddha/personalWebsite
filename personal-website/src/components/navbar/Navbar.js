@@ -13,7 +13,7 @@ class Navbar extends React.Component {
                     <div class="center-content">
                         <a href="#home">Home</a>
                         <a href="#about">About</a>
-                        <a href="#work">Work</a>
+                        <a href="#work">Projects</a>
                         <a href="#blog">Blog</a>
                         <a href="#contact"> <button> Contact </button> </a>
                     </div>

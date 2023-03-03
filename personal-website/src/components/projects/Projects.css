@@ -1,0 +1,10 @@
+.projects-page {
+    height: 100vh;
+    min-height: 800px;
+    width: 80%;
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
